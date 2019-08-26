@@ -1,0 +1,249 @@
+/*
+  Theme Name: Rapid
+  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@font-face {
+  font-family: Avenir-NextRegular;
+  src: url(Fonts/Avenir-Next/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+  font-family: Avenir-NextBold;
+  src: url(Fonts/Avenir-Next/AvenirNextLTPro-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Avenir-NextIT;
+  src: url(Fonts/Avenir-Next/AvenirNextLTPro-It.otf);
+}
+@font-face {
+  font-family: Avenir-NextMedium;
+  src: url(Fonts/Avenir-Next/AvenirNext-Medium.ttf);
+}
+body {
+  font-family: Avenir-NextRegular;
+  font-size:16px;
+}
+
+.pb-15{
+  padding-bottom: 15px;
+}
+
+.p-20{
+  padding: 20px;
+}
+
+.p-t-0{
+  padding-top: 0px;
+}
+
+.p-b-0{
+  padding-bottom: 0px;
+}
+
+.p-r-0{
+  padding-right: 0px;
+}
+
+.page-nav{
+  height: 100px;
+}
+
+.page-nav .container span{
+  color: #DFBA69;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
+.page-details .row h6{
+  color: #DFBA69;
+}
+
+.page-details .row hr{
+  border-top: 1px solid #DFBA69;
+}
+
+ul.list-style li{
+  color: #DFBA69;
+}
+
+ul.list-style li span{
+  color: #000;
+}
+
+.color-light-brown{
+  color: #DFBA69 !important;
+}
+
+.btn-bwn, .btn-bwn:hover{
+  color: #DFBA69;
+  border: 1px solid;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+.btn-bg-bwn, .btn-bg-bwn:hover{
+  background-color: #DFBA69;
+  color: #fff;
+  font-size: 13px;
+  width: 45%;
+  border-radius: 2px;
+}
+
+.btn-text{
+  float: left;
+  padding-top: 7px;
+  padding-left: 9px;
+}
+
+.btn-bg-bwn img{
+  float: right;
+}
+
+.img-icon{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.page-nav .container span.color-black,
+span.color-black{
+  color: #000;
+}
+
+.bg-color-blue{
+  background-color: #f8f9fa;
+}
+
+.bg-color-blue > nav{
+  background-color: #fff;
+}
+
+.badge {
+  background-color: #A6824E;
+  padding: 0.5em 0.8em;
+  font-size: 100%;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 160px;
+}
+
+/* style for list with arrow on checkout page starts */
+.list-arrow{
+  color: #fff;
+  padding-top: 30px;
+  margin-left: -20px;
+  font-family: Avenir-NextBold;
+}
+ol > li {        
+  display: table-cell;
+  text-align: center;
+}
+ol > li > div {         
+  position:relative;        
+  line-height: 30px; /* equal to the list item's height */   
+  text-align: left;     
+}
+ol {
+  background-color: #A6824E;
+  display: table;
+  width: 77%;
+}
+ol > li > div:after, ol > li > div:before {
+  content:"";
+  display:inline-block;        
+  border-width: 15px;
+  border-style: solid;
+  width: 0px;
+  height: 0px;
+  left: 100%;
+  top: 0px;        
+  position: absolute;        
+  z-index: 1;
+}
+ol > li > div:after, ol > li:hover > div:before {
+  border-color: transparent transparent transparent #A6824E;
+}
+ol > li > div:before {
+  border-width: 14px;
+  border-color: transparent transparent transparent #A6824E;
+}
+/* style for list with arrow on checkout page ends */
+
+.radio-style, .radio-style .custom-radio{
+  padding: 20px;
+  padding-top: 0px;
+}
+.pay-now-text{
+  background-color: #000;
+  color: #fff;
+  height: 60px;
+}
+.payment-radio{
+  padding: 20px 0px;
+  padding-bottom: 0px;
+  font-size: 13px;
+}
+.payment-radio > div{
+  padding-right: 0px;
+}
+.contact-form{
+  border: 1px solid #DFBA69;
+}
+.contact-form > div > div {
+  margin: 10px 0px;
+}
+.vl{
+  border-left: 1px solid #DFBA69;
+  left: 8%;
+}
+
+.reg-row{
+  width: -webkit-fill-available;
+  color: #DFBA69;
+}
+
+.form-group label{
+  font-size: 13px;
+}
+
+.grey-text{
+  color: #d1d1d1;
+  padding-top: 22px;
+}
+
+.img-text{
+  font-family: Avenir-NextBold;
+  font-size: 13px;
+}
+
+.shipping-radio label.custom-control-label{
+  color: #807d7b;
+}
+
+p.required-message{
+  font-size: 13px;
+}
+
+.order-radio{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pay-summary{
+  font-size: 13px;
+}
+
+.page-heading{
+  margin: 26px 0px;
+}

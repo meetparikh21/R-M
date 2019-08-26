@@ -1,0 +1,463 @@
+/*
+  Theme Name: Rapid
+  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@font-face {
+  font-family: Oswald-Light;
+  src: url(fonts/Oswald/Oswald-Light.ttf);
+}
+@font-face {
+  font-family: Oswald-Bold;
+  src: url(fonts/Oswald/Oswald-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: url(fonts/Oswald/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: Oswald-SemiBold;
+  src: url(fonts/Oswald/Oswald-SemiBold.ttf);
+}
+@font-face {
+  font-family: Oswald-ExtraLight;
+  src: url(fonts/Oswald/Oswald-ExtraLight.ttf);
+}
+
+
+body {
+  font-family: Oswald-Regular;
+  font-size:16px;
+}
+
+.p-r-0{
+  padding-right: 0px;
+}
+.p-l-0{
+  padding-left: 0px;
+}
+
+header{
+  height: 110px;
+  padding-top: 10px;
+  padding: 15px 25px;
+}
+header > .row{
+      margin-bottom: 15px;
+}
+
+.header-text > div{
+  font-size: 10px;
+  display: inline;
+  vertical-align: middle;
+}
+.header-text .color-red{
+  color:#af1c22;
+  font-weight: 900;
+  font-family: Oswald-Bold;
+  font-size:11px;
+}
+
+.header-text .text-grey{
+  font-family: Oswald-Light;
+  color:#757575;
+  font-size:11px;
+}
+.mail{
+  font-size: 12px!important;
+}
+
+.login-btn{
+  font-family: Oswald-SemiBold;
+  color:#af1c22;
+  font-size:14px;
+}
+
+.header-text > div.text{
+  display: inline-block;
+  text-align: left;
+  padding: 2px 10px;
+  padding-left: 2px;
+}
+.header-logo img{
+  height: 23px;
+}
+.header-logo{
+  padding-left: 5px;
+  border-left: 1px solid #8b8b8b;
+  padding: 10px 5px;
+  padding-left:13px;
+}
+div.table-text{
+  
+  display: inline-block;
+  text-align: left;
+  padding: 2px 10px;
+  padding-left: 2px;
+  vertical-align: middle;
+  color: #8b8b8b;
+}
+.table-text > div{
+  font-family: Oswald-Regular;
+}
+.home-table .table-img{
+  display : inline-block;
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+footer .home-table .table-img{
+  display : inline-block;
+  height: 100%;
+}
+.table-img img{
+  height: 50px;
+  margin: 10px 20px;
+}
+.btn-header{
+  background: #fadc08;
+  color: #af1c22;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+ul.nav {
+  width:100%;
+    font-family: Oswald-Light;
+}
+nav{
+  font-family: Oswald-Light;
+  background: #af1c22;
+  border-radius: 15px;
+  height: 50px;
+  z-index: 999;
+}
+.nav.navbar-nav .dropdown-menu a{
+ color: #af1c22;
+}
+
+.nav.navbar-nav .dropdown-menu{
+  background:#eee;
+}
+
+.nav.navbar-nav .dropdown-menu li{
+      width: 100%;
+    text-align: center;
+    margin: 8px 0px;
+    font-size:14px;
+}
+.nav.navbar-nav .dropdown-menu li:last-child a{
+  border-bottom: none;
+}
+.nav.navbar-nav .dropdown-menu li a{
+  border-bottom: 1px solid #af1c22;
+  padding-bottom: 5px;
+}
+
+.dropdown-menu{
+  border-bottom-left-radius : 12%;
+  border-bottom-right-radius : 12%;  
+  margin-top: 13px;
+}
+nav a{
+ color: #fff;
+}
+.container-fluid.page-details{
+  margin-top: 10px;
+}
+.container-fluid.page-details > .row > .slider{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*-- slider css----*/
+
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom:0;
+}
+li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor:pointer;
+}
+ul#lightSlider img {
+  display: block;
+  height: auto;
+  width: 100%;
+  height: 370px;
+}
+.lSAction > .lSPrev{
+  background-image: url("../img/Home/left-1.png");
+  height: 50px;
+  width: 50px;
+  opacity: initial;
+  left: 70px;
+}
+.lSAction > .lSNext{
+  background-image: url("../img/Home/rightslide.png");
+  height: 50px;
+  width: 50px;
+  opacity: initial;
+  background-position: 0px;
+  right: 70px;
+}
+/*-- slider css ends----*/
+
+/* home-table image and hover effect*/
+
+.thermal-paper{
+  background: url("../img/Home/Services_CopierToner.png") no-repeat;
+}
+.thermal-paper:hover{
+  background: url("../img/Home/ServicesHover_CopierToner.png") no-repeat;
+}
+
+.printer-cash{
+  background: url("../img/Home/Services_PrinterRibbons.png") no-repeat;
+}
+.printer-cash:hover{
+  background: url("../img/Home/ServicesHover_PrinterRibbons.png") no-repeat;
+}
+
+.fax{
+  background: url("../img/Home/Services_CopierToner.png") no-repeat;
+}
+.fax:hover{
+  background: url("../img/Home/ServicesHover_CopierToner.png") no-repeat;
+}
+
+.janitorial{
+  background: url("../img/Home/Services_Janitorial.png") no-repeat;
+}
+.janitorial:hover{
+  background: url("../img/Home/ServicesHover_Janitorial.png") no-repeat;
+}
+
+.inkjet{
+  background: url("../img/Home/Services_InkJetCartridges.png") no-repeat;
+}
+.inkjet:hover{
+  background: url("../img/Home/ServicesHover_InkJetCartridges.png") no-repeat;
+}
+
+.copy-paper{
+  background: url("../img/Home/Services_CopyPaper.png") no-repeat;
+}
+.copy-paper:hover{
+  background: url("../img/Home/ServicesHover_CopyPaper.png") no-repeat;
+}
+
+.office-supply{
+  background: url("../img/Home/Services_Office.png") no-repeat;
+}
+.office-supply:hover{
+  background: url("../img/Home/ServicesHover_Office.png") no-repeat;
+}
+
+.furniture{
+  background: url("../img/Home/Services_Furniture.png") no-repeat;
+}
+.furniture:hover{
+  background: url("../img/Home/ServicesHover_Furniture.png") no-repeat;
+}
+
+
+/* home-table image and hover effect*/
+.home-table{
+  width: 100%;
+}
+.home-table td{
+  border: 1px solid #8b8b8b;
+  padding-left:22px;
+  width:25%;
+
+}
+.home-table tr:first-child td{
+  border-top: none;
+}
+.home-table tr:last-child td{
+  border-bottom: none;
+}
+.home-table tr td:first-child{
+  border-left: none;
+}
+.home-table tr td:last-child{
+  border-right: none;
+}
+.home-table-container{
+  padding: 30px;
+  padding-left: 45px;
+}
+
+.row.difference{
+  background: #cd151e;
+  color: #fff;
+}
+.difference .container{
+  padding-left: 150px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.difference img{
+  width: 100%;
+  height: 130%;
+  position: absolute;
+  bottom: 0px;
+  z-index:999;
+}
+.difference h5{
+  font-weight: bold;
+}
+.difference .btn{
+  background: #fff;
+  border: #fff;
+  color: #cd151e;
+  position: absolute;
+  top: 70px;
+  z-index: 999;
+}
+.btn-contact{
+  left: 230px;
+}
+.btn-order{
+  left: 60px;
+}
+footer div.table-text{
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  color: #8b8b8b;
+  padding-top: 10px;
+  border-top: 1px solid #8b8b8b;
+   font-family: Oswald-ExtraLight;
+}
+footer .home-table td{
+  border: none;
+  border-right: 1px solid #8b8b8b;
+}
+.nav-search{
+  width: 100%;
+  text-align: right;
+}
+.nav-search input{
+  background: #af1c22;
+  border: none;
+}
+.nav-search img{
+  height: 20px;
+  padding-right: 10px;
+}
+header .navbar a{
+  padding: 0px 10px;
+}
+header .navbar a:hover{
+  color: #fff;
+}
+header .navbar li{
+  border-right: 1px solid #fff;
+  height: 20px;
+  font-size: 16px;
+}
+header .navbar li:last-child{
+  border-right: none;
+}
+header .navbar-nav{
+  padding-left: 10px;
+}
+header div{
+  color: #8b8b8b;
+}
+header .nav-link.selected{
+  font-weight: bold;
+}
+
+.difference .text-bold{
+    font-family: Oswald-Bold;
+}
+.difference p{
+  font-family: Oswald-Light;
+}
+.difference .btn-order, .difference .btn-contact{
+  font-family: Oswald-SemiBold;
+   font-size: 14px;
+    padding: 11px 32px;
+    z-index:9999;
+}
+.login-form-div input{
+  border-top:none;
+  border-left: none;
+  border-right:none;
+}
+.login-form-div .pwd{
+  margin-left:15px;
+}
+
+.slider .demo{
+  position:relative;
+}
+.slidertext h2{
+  font-family: Oswald-Bold;
+}
+.slidertext h4{
+  font-family: Oswald-Light;
+}
+.slidertext{
+  position:absolute;
+  color:white;
+  width: 100%;
+  top:160px;
+}
+.slidertext h2{
+  text-align:center
+}
+.our-story-footer{
+  position: relative;
+}
+.our-story-footer p{
+ font-family: Oswald-Light;
+    padding: 0 135px;
+    font-size: 15px;
+
+}
+.our-story-footer h2{
+ font-family: Oswald-Bold;
+}
+
+.storytext{
+  position: absolute;
+  color:white;
+  width: 100%;
+  text-align: center;
+  top:120px;
+  z-index: 999;
+}
+
+.our-story-footer .abt-us{
+      padding: 13px 27px;
+    border-radius: 9px;
+    font-size: 15px;
+    color: #cd151e;
+}
+#overlay{
+    position: absolute;
+    height: 370px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+    cursor: pointer;
+}
+.form-control{
+  border-radius: 0px;
+}
